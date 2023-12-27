@@ -6,6 +6,6 @@ def create_app():
 
     @app.route("/api/test", methods=["GET"])
     def sample_route():
-        return jsonify({"message": "This is a sample route. Do live updates work? Tst 2"})
+        return jsonify({"message": "This is a sample route. Do live updates work? !"})
 
     return app
